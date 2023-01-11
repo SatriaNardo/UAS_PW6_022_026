@@ -1,0 +1,382 @@
+.botak{
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.botak1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botak2{
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    position: absolute;
+    right: 8.5cm;
+    top:15cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.white{
+    color: white;
+}
+.back{
+    padding: 4px;
+    background-color: rgb(8, 79, 66);
+}
+.right{
+    margin-left: 0.5cm;
+    padding: 0.5cm;
+}
+.rightt{
+    margin-left: 0.5cm;
+    padding: 0.5cm;
+}
+.newstyle{
+    float: left;
+    margin-right: 10px;
+}
+.pos{
+   position: absolute;
+   right: 0.5cm;
+   top: 16.3cm;
+   
+}
+.pos1{
+    background-image: linear-gradient(rgb(8, 79, 66),rgb(18, 82, 53));
+    border: 0ch;
+}
+.pos2{
+    background-image: linear-gradient(rgb(18, 82, 53),rgb(8, 79, 66));
+    border: 0ch;
+}
+.pad{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    background-color: rgb(8, 79, 66);
+}
+.bg{
+    background-image:linear-gradient(green,rgb(0, 255, 128));
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+a:active{
+    text-decoration: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: center;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.padd{
+    margin-top:5cm;
+    padding: 4cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+}
+.overlay:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.footer{
+    margin-top: 3cm;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-color: rgba($color: rgb(18, 82, 53), $alpha: 0.5);
+}
+.footer-text{
+    text-align: center;
+    text-shadow: #123f16;
+    color: gray;
+}
+.link{
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    color: gray;
+    display: flex;
+    position: absolute;
+    left: 16cm;
+}
+.overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: center;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.padd2{
+    margin-top:5cm;
+    padding: 4cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+}
+.overlay2:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.overlay3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.overlay3:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd3{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+.pic{
+    position: absolute;
+    top: 5.5cm;
+    left: 4.5cm;
+    float: left;
+}
+.marg{
+    position: absolute;
+    margin-right: 4cm;
+    margin-top: 0;
+    float: right;
+    
+}
+.posi{
+    margin-right: 19cm;
+}
+.margin{
+    bottom: 4.8cm;
+    float: right;
+    margin-left: 8.2cm;
+    margin-right: 4.2cm;
+}
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+.pa {
+    padding: 1cm;
+
+}
+.loc{
+    position: absolute;
+    bottom: 2cm;
+    left: 0cm;
+    width: 5cm;
+}
+.loc1{
+    position: absolute;
+    bottom: 1.5cm;
+    left: 0cm;
+    width: 5cm;
+}
+.overlay4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    
+}
+.overlay4:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd4{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+.overlay5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.overlay5:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd5{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+.overlay6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.overlay6:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd6{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .overlay7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.overlay7:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd7{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+.overlay8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 100;
+    text-align: left;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.overlay8:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.padd8{
+    margin-top:5cm;
+    padding: 4cm;
+    padding-bottom: 10cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba($color: #123f16, $alpha: 0.5);
+    
+}
+.jarak{
+    margin-top: 0.25cm;
+    margin-bottom: 0.25cm;
+}

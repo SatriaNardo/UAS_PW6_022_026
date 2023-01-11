@@ -1,0 +1,235 @@
+@font-face { font-family: Grotley; src: url('fonts/Grotley.otf'); } 
+@font-face { font-family: Quartz; src: url('fonts/Quartz.ttf'); }
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: -webkit-linear-gradient(left, rgb(13, 5, 39), rgb(27, 33, 155));
+    background-repeat: repeat;
+
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+
+#forgot-pass {
+    color: #0f1338;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+
+#card {
+    background: #83e488;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, .65);
+    height: 430px;
+    margin: 6rem auto 9.1rem auto;
+    width: 600px;
+    margin-top: 4cm;
+}
+#cardd {
+    background: #83e488;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, .65);
+    height: 500px;
+    margin: 6rem auto 9.1rem auto;
+    width: 600px;
+    margin-top: 4cm;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+#signup {
+    color: #11380f;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(right, #7bf794, #0f3816);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #22380f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: .25s;
+    width: 153px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #0f3810;
+}
+
+.form {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #7bf77f, #12380f);
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #83e488;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #2ebd21, #12380f);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+    margin-top: 5px;
+}
+.warna{
+    background-image:linear-gradient(to right, rgb(13, 5, 39),rgb(27, 33, 155))
+}
+.pos{
+    position: absolute;
+    margin-top: 5cm;
+}
+.foot{
+    position: absolute;
+    top: 18cm;
+    height: 7cm;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(32, 49, 114),rgb(60, 68, 125));
+    color: white;
+    z-index: 90;
+}
+.lofot{
+    position: absolute;
+    width: 5cm;
+    margin-left: 1cm;
+    margin-top: 20px;
+}
+.jarak{
+    position: absolute;
+    margin-top: 4cm;
+    width: 100%;
+}
+td{
+    color: white;
+    text-align: center;
+}
+th{
+    color: white;
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .table th {
+    background: #eee;
+  }
+  .tombol {
+  display: inline-block;
+  max-width: 150px;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  background: #038ade;
+  cursor: pointer;
+}
+.card1 {
+    background: rgb(114, 255, 95);
+    border-radius: 2px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, .65);
+    height: 430px;
+    margin: 6rem auto 9.1rem auto;
+    width: 600px;
+    margin-top: 4cm;
+    padding: 12px 44px;
+    text-align: center;
+    font-family: Grotley;
+}
+.tengah{
+    text-align: center;
+}
+.loca{
+    padding: 1cm;
+    background-image: linear-gradient(rgb(60, 56, 56),rgb(75, 75, 83));
+    border-radius: 10%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: 6rem auto 9.1rem auto;
+    margin-top: 5cm;
+    margin-bottom: 3cm;
+    left: 12cm;
+    
+}
+.warni{
+    background-color: rgb(45, 43, 78);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    text-align: center;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .padd {
+    margin-top: 5cm;
+    padding: 4cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: rgba(18, 63, 22, 0.5);
+  }
+  
+  .overlay:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+  }
+  .white {
+    color: white;
+  }
